@@ -24,6 +24,9 @@ public class MainActivity extends AppCompatActivity implements ServiceConnection
         startService(intent);
         bindService(intent,this,0);
     }
+    public void thfff(){
+
+    }
 
     @Override
     public void onServiceConnected(ComponentName name, IBinder binder) {
