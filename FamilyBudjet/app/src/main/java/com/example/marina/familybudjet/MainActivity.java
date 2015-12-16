@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity implements ServiceConnection
         bindService(intent,this,0);
     }
     public void thfff(){
-
+        int a  = 5;
     }
 
     @Override
